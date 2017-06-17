@@ -1,0 +1,94 @@
+.youtube-logo{
+	cursor: pointer;
+	top: 15px;
+	position: absolute;
+}
+
+.menu{
+	background: transparent;
+	border: 0;
+	cursor: pointer;
+	width: 40px;
+	height: 100%;
+	font-size: 15px;
+	margin-top: 15px;
+	position: relative;
+}
+
+
+.upload{
+ 	background: transparent;
+ 	border: 0;
+ 	cursor: pointer;
+ 	font-size: 20px;
+ 	color: grey;
+ 	margin-right: 35px;
+
+}
+
+.notification{
+	background:transparent;
+	border:0;
+	cursor: pointer;
+	font-size: 20px;
+	color: grey;
+
+}
+
+
+.item{
+	display: inline-block;
+
+}
+
+
+.header{
+	border-bottom: 1px solid #e8e8e8;
+	z-index: 1000;
+	min-height: 40px;
+}
+
+.search-box{
+	padding: 10px;
+	margin-left: 150px;
+	margin-top: -40px;
+}
+
+.search-box input{
+	height:20px;
+	width: 523px;
+
+}
+
+.button-search{
+	background: transparent;
+	font-size:inherit;
+	height: 30px;
+	width: 70px;
+}
+
+.button-search:hover, .upload:hover, .notification:hover {
+    border-color: #c6c6c6;
+    background: #f0f0f0;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.right-items{
+	float:right;
+	margin-top: -45px;
+	margin-right: 45px;
+	padding: 5px;
+}
+
+
+
+.profile-pic{
+	width: 27px;
+	height: 27px;
+	border-radius: 100%;
+	position: absolute;
+	margin-top: -26px;
+	margin-left: 110px;
+}
+
+
