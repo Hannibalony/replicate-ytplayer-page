@@ -92,3 +92,87 @@
 }
 
 
+.title{
+	display: block;
+	font-weight: normal;
+	line-height: normal;
+	word-wrap: break-word;
+	font-size: 20px;
+}
+
+.user-item{
+	display: inline-block;
+}
+
+#channel-title {
+	vertical-align: top;
+	display: inline-block;
+	color: #333;
+	height: 22px;
+	max-width: 315px;
+	text-overflow: ellipsis;
+	margin-top: -5px;
+}
+
+#channel-title a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #333;
+	margin: 0;
+}
+
+#channel-title a:hover{
+	text-decoration: underline;
+}
+.fa-youtube-play{
+	color: white;
+	background: transparent;
+	border: 0;
+}
+
+
+
+.subscribe button{
+	border-radius: 2px;
+	background-color: #e62117;
+	color: white;
+	border: 0;
+	left: 5.5em;
+	margin-top: -25px;
+	position: absolute;
+	height: 24px;
+}
+
+.subscribe button:hover{
+	cursor: pointer;
+	background-color: #cc181e;
+
+}
+
+.subscriber-count{
+	border: 1px solid #ccc;
+	position: absolute;
+	margin-left: -23px;
+	margin-top: -25px;
+	display: inline-block;
+	color: #737373;
+	font-weight: 500;
+	height: 24px;
+	width: 24px;
+}
+
+.subscribe span{
+	font-size: 11px;
+	vertical-align: middle;
+	text-align: center;
+	border-radius: 0 2px 2px 0;
+}
+
+.right{
+	float:right;
+}
+
+.right-item{
+	display: inline-block;
+	position: relative;
+}
