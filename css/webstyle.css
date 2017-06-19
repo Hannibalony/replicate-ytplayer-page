@@ -1,3 +1,8 @@
+
+body{
+	background: #efefef;
+}
+
 .youtube-logo{
 	cursor: pointer;
 	top: 15px;
@@ -45,7 +50,8 @@
 .header{
 	border-bottom: 1px solid #e8e8e8;
 	z-index: 1000;
-	min-height: 40px;
+	min-height: 50px;
+	background: white;
 }
 
 .search-box{
@@ -98,6 +104,7 @@
 	line-height: normal;
 	word-wrap: break-word;
 	font-size: 20px;
+	padding: 15px;
 }
 
 .user-item{
@@ -137,7 +144,7 @@
 	background-color: #e62117;
 	color: white;
 	border: 0;
-	left: 5.5em;
+	left: 210px;
 	margin-top: -25px;
 	position: absolute;
 	height: 24px;
@@ -195,6 +202,7 @@
 
 .count-contain{
 	float: right;
+	margin-top: 35px;
 }
 
 .bar-likes{
@@ -213,3 +221,44 @@
 	padding: 5px;
 }
 
+#video-container{
+	margin-left: 145px;
+	margin-top: 30px;
+
+}
+
+.bottom-buttons{
+	border-top: 1px solid #e2e2e2;
+	min-width: 490px;
+	width: 490px;
+	margin-top: -25px;
+}
+
+.bt-bottom{
+	display: inline-block;
+	padding: 5px;
+}
+
+.video-information{
+	min-width: 560px;
+	width: 560px;
+	background: white;
+}
+
+.video-title{
+	min-width: 490px;
+	width: 490px;
+}
+
+.fa-thumbs-down, .fa-thumbs-up{
+	color: grey;
+}
+
+.fa-thumbs-up:active,.fa-thumbs-down:active{
+	color:#167ac6 !important;
+}
+
+.fa-thumbs-up:hover,.fa-thumbs-down:hover{
+	color:#666;
+	cursor: pointer;
+}
