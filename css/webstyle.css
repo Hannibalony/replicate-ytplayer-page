@@ -157,7 +157,7 @@
 	display: inline-block;
 	color: #737373;
 	font-weight: 500;
-	height: 24px;
+	height: 22px;
 	width: 24px;
 }
 
@@ -168,6 +168,11 @@
 	border-radius: 0 2px 2px 0;
 }
 
+.subscribe{
+	clear: both;
+
+}
+
 .right{
 	float:right;
 }
@@ -175,5 +180,36 @@
 .right-item{
 	display: inline-block;
 	position: relative;
-	/*continue*/
 }
+
+.block{
+	display: block;
+
+}
+
+
+.user-channel{
+	display: inline-block;
+	width: 560px;
+}
+
+.count-contain{
+	float: right;
+}
+
+.bar-likes{
+	height: 2px;
+	background: #167ac6;
+}
+
+.views{
+	font-size: 19px;
+	color: #666;
+	line-height: 24px;
+	max-height: 24px;
+}
+
+.yt-f{
+	padding: 5px;
+}
+
