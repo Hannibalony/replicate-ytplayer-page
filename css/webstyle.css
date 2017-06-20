@@ -1,6 +1,7 @@
 
 body{
 	background: #efefef;
+	font-style: sans-serif;
 }
 
 .youtube-logo{
@@ -253,6 +254,9 @@ body{
 	min-width: 560px;
 	width: 560px;
 	background: white;
+	border-left: 1px solid #e2e2e2;
+	border-right: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
 }
 
 .video-title{
@@ -278,7 +282,7 @@ body{
 	margin-right: 65px;
 	min-width: 450px;
 	width: 450px;
-	margin-top: -460px;
+	margin-top: -665px;
 	height: 100%;
 	padding: 15px;
 	border-left: 1px solid #e8e8e8;
@@ -433,4 +437,79 @@ body{
 	color:#767676;
 	padding: 2px;
 	margin: 0;
+}
+
+.video-description{
+	background: white;
+	margin-top: 15px;
+	min-width: 540px;
+	width: 540px;
+	display: inline-block;
+	padding: 10px;
+	line-height: 17px;
+	color: #333;
+	border-left: 1px solid #e2e2e2;
+	border-right: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+}
+
+.publish-date{
+	font-size: 100%;
+	font-weight: 500;
+}
+
+.block-itm{
+	padding: 5px;
+	display: block;
+	font-size: 11px;
+
+
+}
+
+.title-block{
+	font-weight: 600;
+    line-height: 11px;
+	font-size: 11px;
+	width: 100%;
+	color: #333;
+	padding: 5px;
+}
+
+.category,.license{
+	line-height: 5px;
+	color: #333;
+}
+
+
+.comment-section{
+	background: white;
+	margin-top: 15px;
+	width: 560px;
+	min-width: 560px;
+	height: 80px;
+	border-left: 1px solid #e2e2e2;
+	border-right: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+}
+
+.comment-service{
+	text-align: center;
+	vertical-align: middle;
+	line-height: 80px;   
+	margin-left: 180px;
+}
+
+
+
+.main-footer{
+	background: white;
+	margin-top: 150px;
+	height: 55px;
+    padding: 15px 0;
+    border-top: 1px solid #e2e2e2;
+
+}
+
+.item{
+	display: inline-block;
 }
