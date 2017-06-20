@@ -184,10 +184,20 @@ body{
 	float:right;
 }
 
-.right-item{
+.right-itm{
+	float: right;
 	display: inline-block;
-	position: relative;
 }
+
+.left-itm{
+	float: left;
+	display: inline-block;
+	position: absolute;
+	margin: 5px;
+
+}
+
+
 
 .block{
 	display: block;
@@ -261,4 +271,166 @@ body{
 .fa-thumbs-up:hover,.fa-thumbs-down:hover{
 	color:#666;
 	cursor: pointer;
+}
+
+.queue-videos{
+	background:white;
+	margin-right: 65px;
+	min-width: 450px;
+	width: 450px;
+	margin-top: -460px;
+	height: 100%;
+	padding: 15px;
+	border-left: 1px solid #e8e8e8;
+}
+
+.fa-info-circle{
+	margin-left: 5px;
+	color: grey;
+}
+
+.fa-info-circle:hover{
+	cursor: pointer;
+}
+
+.autoplay{
+	margin-right: 65px;
+	clear: both;
+	margin-top: 5px;
+}
+
+.next{
+	color: #222;
+
+}
+
+/* this sets the actual size of the label */
+.checkbox-on-off {
+  display: inline-block;
+  width: 35px;
+  padding-right: 2px;
+  overflow: hidden;
+  vertical-align: middle;
+  float: right;
+  clear: both;
+  margin-top: -15px;
+  margin-right: 15px;
+}
+
+/* this positions the check box label over the text box */
+.checkbox-on-off input[type=checkbox] {
+  position: absolute;
+  opacity: 0;
+}
+
+/* makes the background blue */
+.checkbox-on-off input[type=checkbox]:checked+label {
+  background-color: #167ac6;
+}
+/* this is the grey background check mark */
+.checkbox-on-off label {
+  display: inline-block;
+  border: 1px solid transparent;
+  height: 13px;
+  width: 100%;
+  background: #b8b8b8;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+/* this adds the check mark */
+.checkbox-on-off input[type=checkbox]:checked+label .checked {
+  display: inline-block;
+  margin-top: 3px;
+  margin-left: 6px;
+  background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vflAhaHWR.webp) -421px -77px;
+  background-size: auto;
+  width: 10px;
+  height: 7px;
+}
+
+/* if you click the checkbox, it sometimes has a grey square */
+.checkbox-on-off label .checked {
+  display: none;
+}
+
+.checkbox-on-off input[type=checkbox]:checked+label .unchecked {
+  display: none;
+}
+.checkbox-on-off label .unchecked {
+  display: inline-block;
+  float: right;
+  padding-right: 3px;
+}
+
+/* this positions the white dot */
+.checkbox-on-off input[type=checkbox]:checked+label .toggle {
+  float: right;
+}
+
+/* this is the actual white dot */
+.checkbox-on-off label .toggle {
+  float: left;
+  background: #fbfbfb;
+  height: 13px;
+  width: 13px;
+  border-radius: 20px;
+}
+
+
+.video-thumbnail{
+	cursor: pointer;
+}
+
+
+
+.next-videos,.video-next{
+	margin: 15px;
+}
+
+.video-list{
+	margin-top: 30px;
+}
+
+
+.video-time{
+	margin-left: -25px;
+	color: white;
+	font-size: 12px;
+	background: black;
+}
+
+.side-info{
+	display: block;
+	clear: both;
+
+}
+
+.video-li-info{
+	float: right;
+	clear: both;
+	margin-right: -15px;
+}
+
+.video-ul{
+	clear: both;
+}
+
+.video-li-title{
+	font-weight: bold;
+	font-size: 14px;
+	color:#333;
+	display: inline-block;
+}
+
+.video-li-title:hover{
+	color: #167ac6;
+	cursor: pointer;
+}
+
+.video-li-channel,.video-li-views{
+	font-size: 13px;
+	color:#767676;
+	padding: 2px;
+	margin: 0;
 }
